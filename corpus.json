@@ -1,0 +1,30 @@
+{
+  "corpus": "pl/krajowa-izba-odwolawcza/caselaw",
+  "path": "poland/krajowa-izba-odwolawcza/caselaw",
+  "name": "Case law: Poland, the Krajowa Izba Odwoławcza (National Appeal Chamber)",
+  "label": "Poland case law (the Krajowa Izba Odwoławcza (National Appeal Chamber))",
+  "language": "pl",
+  "kind": "judgments",
+  "history": "in-force",
+  "coverage": "22168 judgments with text from SAOS, one file and one commit each, dated the day given; 9957 citations of law linked to poland-law.",
+  "history_from": "2007-12-10",
+  "record_to": "2026-11-07",
+  "checked_on": "2026-11-07",
+  "record_note": "Court decisions, not laws: every commit is Kind: court. In-force is the day given. Judgments with no usable date are in decisions/undated/.",
+  "in_force_trailer": "In-force",
+  "correction_trailer": "Corrected",
+  "dates": {
+    "commit": "decided",
+    "time": "12:00 Europe/Warsaw"
+  },
+  "source": {
+    "publisher": "SAOS, System Analizy Orzeczeń Sądowych (saos.org.pl), from the courts' own portals",
+    "url": "https://www.saos.org.pl/api/dump/judgments",
+    "fetched": "2026-11-07",
+    "licence": "Judgments are official documents, not subject to copyright (Art. 4 of the Polish Copyright Act); SAOS states no reuse conditions"
+  },
+  "overlay": {
+    "path": "judgments/poland/national/acts/<act>/<art>.jsonl",
+    "law_corpus": "poland/national/acts"
+  }
+}
