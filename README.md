@@ -3,7 +3,7 @@
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the case law of the Krajowa Izba Odwoławcza (National Appeal Chamber), Poland, which global-law reads at `poland/krajowa-izba-odwolawcza/caselaw/`.
 
 Every judgment of the Krajowa Izba Odwoławcza (National Appeal Chamber) that SAOS (System Analizy Orzeczeń Sądowych) holds with its text, as a git history: one file per
-judgment, one commit per judgment, dated the day it was given. 22,168 judgments from 2007-12-10 to 2026-11-07.
+judgment, one commit per judgment, dated the day it was given. 22,168 judgments given from 2007-12-10 to 2018-09-06, as SAOS held them on 2026-11-07. SAOS holds no judgment of the Krajowa Izba Odwoławcza (National Appeal Chamber) given after 2018-09-06: later judgments are not in this record, though it was checked against SAOS on 2026-11-07.
 
 ## Questions as git commands
 
