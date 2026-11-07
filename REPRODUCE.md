@@ -10,3 +10,13 @@ python tools/build.py krajowa-izba-odwolawcza <parsed> <empty folder> --today 20
 ```
 
 Gives 22,168 judgment commits and one documentation commit.
+
+## The UZP decisions
+After the SAOS build, the decisions given from 2018-06-01 that SAOS lacks are appended from https://orzeczenia.uzp.gov.pl:
+
+```
+python -X utf8 tools/kio_uzp.py fetch --from 2018-06-01
+python -X utf8 tools/kio_uzp.py append
+```
+
+`fetch` lists them by month and reads each PDF; `append` writes one commit each and this documentation commit.

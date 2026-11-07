@@ -6,11 +6,11 @@
   "language": "pl",
   "kind": "judgments",
   "history": "in-force",
-  "coverage": "22168 judgments with text from SAOS, one file and one commit each, dated the day given; 9957 citations of law linked to poland-law.",
+  "coverage": "24063 decisions with text, one file and one commit each, dated the day given: 22168 from SAOS (to 2018-09-06) and 1895 from the UZP portal orzeczenia.uzp.gov.pl (2018-06-01 to 2019-10-31); 10900 citations of law linked to poland-law.",
   "history_from": "2007-12-10",
   "record_to": "2026-11-07",
   "checked_on": "2026-11-07",
-  "record_note": "Court decisions, not laws: every commit is Kind: court. In-force is the day given. Judgments with no usable date are in decisions/undated/. SAOS holds no judgment of the Krajowa Izba Odwoławcza (National Appeal Chamber) given after 2018-09-06: later judgments are not in this record, though it was checked against SAOS on 2026-11-07.",
+  "record_note": "Court decisions, not laws: every commit is Kind: court. In-force is the day given. Decisions with no usable date are in decisions/undated/. To 2018-09-06 the decisions are SAOS's; from 2018-06-01 the ones SAOS lacks are the UZP portal's (orzeczenia.uzp.gov.pl), appended after SAOS's, and the nightly run appends late uploads, so the history is not wholly in In-force order. A decision the portal lists without a readable text is not in the record.",
   "in_force_trailer": "In-force",
   "correction_trailer": "Corrected",
   "dates": {
@@ -18,13 +18,33 @@
     "time": "12:00 Europe/Warsaw"
   },
   "source": {
-    "publisher": "SAOS, System Analizy Orzeczeń Sądowych (saos.org.pl), from the courts' own portals",
-    "url": "https://www.saos.org.pl/api/dump/judgments",
+    "publisher": "SAOS (saos.org.pl) to 2018-09-06; then the Urząd Zamówień Publicznych portal of KIO decisions",
+    "url": "https://orzeczenia.uzp.gov.pl",
     "fetched": "2026-11-07",
-    "licence": "Judgments are official documents, not subject to copyright (Art. 4 of the Polish Copyright Act); SAOS states no reuse conditions"
+    "licence": "Decisions are official documents, not subject to copyright (Art. 4 of the Polish Copyright Act); neither SAOS nor the UZP portal states reuse conditions"
   },
   "overlay": {
     "path": "judgments/poland/national/acts/<act>/<art>.jsonl",
     "law_corpus": "poland/national/acts"
-  }
+  },
+  "counts": {
+    "saos": 22168,
+    "uzp": 1895
+  },
+  "history_order": "appended",
+  "sources": [
+    {
+      "name": "SAOS",
+      "url": "https://www.saos.org.pl/api/dump/judgments",
+      "to": "2018-09-06"
+    },
+    {
+      "name": "orzeczenia.uzp.gov.pl",
+      "url": "https://orzeczenia.uzp.gov.pl",
+      "from": "2018-06-01",
+      "fetched": "2026-11-07"
+    }
+  ],
+  "uzp_first_day": "2018-06-01",
+  "uzp_last_day": "2019-10-31"
 }
