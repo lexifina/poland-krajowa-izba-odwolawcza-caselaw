@@ -26,9 +26,10 @@ Links come from the courts' own list of cited provisions (SAOS `referencedRegula
 from citations in the text ("art. 415 k.c.", "art. 22¹ § 1 k.p.", "art. 32 Konstytucji RP"), kept only where they land on
 an article file poland-law holds. 9,957 are linked.
 
+
 ## Later decisions: the UZP portal
 SAOS holds no KIO decision given after 2018-09-06, and few after May 2018. The ones it lacks come from the Urząd Zamówień
-Publicznych's own portal (https://orzeczenia.uzp.gov.pl): 1,895 decisions given from 2018-06-01 to 2019-10-31, as it listed them on 2026-11-07,
+Publicznych's own portal (https://orzeczenia.uzp.gov.pl): 26,900 decisions given from 2018-06-01 to 2026-10-12, as it listed them on 2026-11-07,
 each with the text of its PDF (read with PyMuPDF; page layout is not kept). Their files end in `-uzp-<portal id>.md`, their
 commits carry `UZP: <portal id>`, and `decision-index.tsv` lists them by docket and by `UZP <id>`. A decision SAOS already
 holds (same docket) is not added twice. These commits come after SAOS's in the history

@@ -6,7 +6,7 @@
   "language": "pl",
   "kind": "judgments",
   "history": "in-force",
-  "coverage": "24063 decisions with text, one file and one commit each, dated the day given: 22168 from SAOS (to 2018-09-06) and 1895 from the UZP portal orzeczenia.uzp.gov.pl (2018-06-01 to 2019-10-31); 10900 citations of law linked to poland-law.",
+  "coverage": "49068 decisions with text, one file and one commit each, dated the day given: 22168 from SAOS (to 2018-09-06) and 26900 from the UZP portal orzeczenia.uzp.gov.pl (2018-06-01 to 2026-10-12); 19778 citations of law linked to poland-law.",
   "history_from": "2007-12-10",
   "record_to": "2026-11-07",
   "checked_on": "2026-11-07",
@@ -29,7 +29,7 @@
   },
   "counts": {
     "saos": 22168,
-    "uzp": 1895
+    "uzp": 26900
   },
   "history_order": "appended",
   "sources": [
@@ -46,5 +46,5 @@
     }
   ],
   "uzp_first_day": "2018-06-01",
-  "uzp_last_day": "2019-10-31"
+  "uzp_last_day": "2026-10-12"
 }
