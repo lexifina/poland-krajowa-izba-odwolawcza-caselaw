@@ -6,10 +6,10 @@
   "language": "pl",
   "kind": "judgments",
   "history": "in-force",
-  "coverage": "49068 decisions with text, one file and one commit each, dated the day given: 22168 from SAOS (to 2018-09-06) and 26900 from the UZP portal orzeczenia.uzp.gov.pl (2018-06-01 to 2026-10-12); 19778 citations of law linked to poland-law.",
+  "coverage": "49127 decisions with text, one file and one commit each, dated the day given: 22168 from SAOS (to 2018-09-06) and 26959 from the UZP portal orzeczenia.uzp.gov.pl (2018-06-01 to 2026-10-12); 19799 citations of law linked to poland-law.",
   "history_from": "2007-12-10",
-  "record_to": "2026-11-07",
-  "checked_on": "2026-11-07",
+  "record_to": "2026-11-09",
+  "checked_on": "2026-11-09",
   "record_note": "Court decisions, not laws: every commit is Kind: court. In-force is the day given. Decisions with no usable date are in decisions/undated/. To 2018-09-06 the decisions are SAOS's; from 2018-06-01 the ones SAOS lacks are the UZP portal's (orzeczenia.uzp.gov.pl), appended after SAOS's, and the nightly run appends late uploads, so the history is not wholly in In-force order. A decision the portal lists without a readable text is not in the record.",
   "in_force_trailer": "In-force",
   "correction_trailer": "Corrected",
@@ -20,7 +20,7 @@
   "source": {
     "publisher": "SAOS (saos.org.pl) to 2018-09-06; then the Urząd Zamówień Publicznych portal of KIO decisions",
     "url": "https://orzeczenia.uzp.gov.pl",
-    "fetched": "2026-11-07",
+    "fetched": "2026-11-09",
     "licence": "Decisions are official documents, not subject to copyright (Art. 4 of the Polish Copyright Act); neither SAOS nor the UZP portal states reuse conditions"
   },
   "overlay": {
@@ -29,7 +29,7 @@
   },
   "counts": {
     "saos": 22168,
-    "uzp": 26900
+    "uzp": 26959
   },
   "history_order": "appended",
   "sources": [
@@ -42,7 +42,7 @@
       "name": "orzeczenia.uzp.gov.pl",
       "url": "https://orzeczenia.uzp.gov.pl",
       "from": "2018-06-01",
-      "fetched": "2026-11-07"
+      "fetched": "2026-11-09"
     }
   ],
   "uzp_first_day": "2018-06-01",
